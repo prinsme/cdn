@@ -1,5 +1,5 @@
-if(document.domain == 'shell.prinsh.com'){
-alert("apa");
+if(document.domain == 'unknown.com'){
+window.location.href = 'https://myweb.com';
 } else if(document.domain == 'unknown.com'){
 window.location.href = 'https://myweb.com';
 }
