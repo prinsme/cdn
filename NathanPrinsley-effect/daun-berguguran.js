@@ -87,3 +87,6 @@
 					if (hidesnowtime>0)
 					setTimeout("hidesnow()", hidesnowtime*1000)
 					}
+/*
+from https://cdn.prinsh.comcdn/NathanPrinsley-effect/daun-berguguran.js
+*/
