@@ -1,3 +1,6 @@
+/*
+from https://cdn.prinsh.comcdn/NathanPrinsley-effect/green-bintang-jatuh.js
+*/
 // JavaScript Document<script type='text/javascript'>
             // <![CDATA[
             var colour="green";
