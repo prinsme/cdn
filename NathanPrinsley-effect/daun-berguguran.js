@@ -1,4 +1,6 @@
-
+/*
+from https://cdn.prinsh.comcdn/NathanPrinsley-effect/daun-berguguran.js
+*/
 			/******************************************
 			* Snow Effect Script- By Altan d.o.o. (http://www.altan.hr/snow/index.html)
 			* Visit Dynamic Drive DHTML code library (http://www.dynamicdrive.com/) for full source code
