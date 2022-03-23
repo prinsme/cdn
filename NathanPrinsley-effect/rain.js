@@ -1,3 +1,6 @@
+/*
+from https://cdn.prinsh.comcdn/NathanPrinsley-effect/rain.js
+*/
 //Hujan/ effect- By Mr-CAPITAL capitallail.blogspot.co.id
 //tutorial by me Ramadoni :)
 document.write("<style>.drop { position: absolute; width: 3;  filter: flipV(), flipH(); font-size: 40; color: blue }</style>");
@@ -38,3 +41,6 @@ if(snow){col = 'white'}else{col = 'blue'}
 drop[make].color = col;
 }
 window.onload=moverain
+/*
+from https://cdn.prinsh.comcdn/NathanPrinsley-effect/rain.js
+*/
