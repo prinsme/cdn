@@ -1,5 +1,5 @@
 /*
-from https://cdn.prinsh.comcdn/NathanPrinsley-effect/daun-berguguran.js
+from https://cdn.prinsh.comcdn/NathanPrinsley-effect/efek-salju.js
 */
 /*
    DHTML Snowstorm! OO-style Jascript-based Snow effect
@@ -497,5 +497,5 @@ function SnowStorm() {
 
 snowStorm = new SnowStorm();
 /*
-from https://cdn.prinsh.comcdn/NathanPrinsley-effect/daun-berguguran.js
+from https://cdn.prinsh.comcdn/NathanPrinsley-effect/efek-salju.js
 */
