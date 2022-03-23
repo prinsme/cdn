@@ -1,4 +1,7 @@
 /*
+from https://cdn.prinsh.comcdn/NathanPrinsley-effect/daun-berguguran.js
+*/
+/*
    DHTML Snowstorm! OO-style Jascript-based Snow effect
    ----------------------------------------------------
    Version 1.4.20091115 (Previous rev: v1.3.20081215)
@@ -493,3 +496,6 @@ function SnowStorm() {
 }
 
 snowStorm = new SnowStorm();
+/*
+from https://cdn.prinsh.comcdn/NathanPrinsley-effect/daun-berguguran.js
+*/
