@@ -175,3 +175,15 @@ hr{
 }.nathanlink:hover{
     color:red;
 }
+.natsprinsley {
+    border-radius: 6px;
+    border: solid 9px #204ecf;
+    cursor: pointer;
+    background-color: #204ecf;
+    color: white;
+    font-size: 22px;
+    text-decoration:none;
+}.natsprinsley:hover{
+    background-color: purple;
+    border: solid 9px purple;
+}
