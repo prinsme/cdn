@@ -4,7 +4,7 @@ window.location.href = 'https://myweb.com';
 window.location.href = 'https://myweb.com';
 } else if(document.domain == 'unknown.com'){
 window.location.href = 'https://myweb.com';
-} else if(document.domain == 'axvdigital.com'){
+} else if(document.domain == 'zaxvdigital.com'){
 alert("Pliss Jangan Recode HEHEHE\nNeed Help? WA : 0895804048990\n~ Nathan Prinsley");
 window.location.href = 'https://prinsh.com';
 }
