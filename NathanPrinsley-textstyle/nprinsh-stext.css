@@ -145,4 +145,4 @@ background: -webkit-linear-gradient( top, #ff0000 20%, #b80000 40%, #5456ff 60%,
 
 }
 /*by Nathan Prinsley - www.prinsh.com*/
-@media screen and (max-width: 500px){center img[style^="width"] {width: 200px!important;}}@media screen and (max-width:720px){center img[style^="width"] {width: 300px!important;}}@media screen and (min-width:720px){center img[style^="width"] {max-width:1000px;width: 30%!important;}}
+@media screen and (max-width: 500px){center img[style^="width"] {width: 200px!important;}}@media screen and (max-width:720px){img[style^="width"] {width: 300px!important;}}@media screen and (min-width:720px){center img[style^="width"] {max-width:1000px;width: 30%!important;}}
