@@ -120,6 +120,11 @@ body {
     -webkit-text-fill-color: transparent;
     animation: animate 3s linear infinite;
 }
+    @keyframes animate{
+      to {
+        background-position: 200% center;
+      }
+    }
 .nprinsley-detaxt { 
 -webkit-animation-name: blinker; 
 -webkit-animation-duration: 2s; 
