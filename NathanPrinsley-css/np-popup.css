@@ -1,0 +1,107 @@
+:root{
+--np-bgpopup:#ffffff;
+}
+nathanprinsley [nathan="overlay"] {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    transition: opacity 100ms;
+    visibility: hidden;
+    opacity: 0;
+}
+nathanprinsley xicon{
+    background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='white' stroke='white' viewBox='0 0 16 16'><path d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z'/></svg>");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+nathanprinsley [nathan="backdrop"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor:unset;
+}
+[nathan="popup"] {
+    height: 70%;
+    width: 90%;
+    max-height: 500px;
+    max-width: 600px;
+    border:solid 6px var(--np-bgpopup);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 4px;
+    background: var(--np-bgpopup);
+    border-radius: 5px;
+    transition: all 0s ease-in-out;
+    box-shadow:0px 0px 19px 2px rgb(0 0 0 / 50%);
+    overflow-y:auto;
+}
+nathanprinsley [nathan="close"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 0.6;
+    text-decoration: none;
+    color: var(--np-bgpopup);
+    border-radius: 5px;
+    padding: 5px 5px 3px 5px;
+    background-color: rgb(255 0 0 / 90%);
+    transition: all .2s ease;
+    cursor:pointer;
+}
+nathanprinsley [nathan="close"]:hover {
+    transition: all .2s ease;
+    padding: 9px 9px 6px 9px;
+    top: 1px;
+    right: 1px; 
+    opacity: 0.8;
+}
+nathanprinsley [nathan="popup"] [nathan="content"] {
+    overflow-y: auto;
+}
+nathanprinsley > input:checked ~ [nathan="overlay"] {
+    opacity: 1;
+    visibility: visible;
+    z-index: 999;
+    margin: 0;
+}
+nathanprinsley [nathan="iframe"]{
+    width:100%;
+    height:100%;
+}
+
+
+
+
+/* Example to use in HTML:
+
+
+<nathanprinsley>
+  <input type="checkbox" id="petaNathanPrinsley" hidden=""/>
+  <label for="petaNathanPrinsley">Click Here to Open Popup</label>
+  <div nathan="overlay">
+    <label for="petaNathanPrinsley" nathan="backdrop"></label>
+    <label nathan="close" for="petaNathanPrinsley"><xicon/></label>
+    <div nathan="popup">
+      <div nathan="content">
+        <h1>Hello World</h1>
+      </div>
+    </div>
+  </div>
+</nathanprinsley>
+
+*/
