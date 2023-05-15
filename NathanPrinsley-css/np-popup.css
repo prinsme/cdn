@@ -90,12 +90,13 @@ nathanprinsley [nathan="iframe"]{
 /* Example to use in HTML:
 
 
+<input type="checkbox" id="npPopup" hidden=""/>
+<label for="npPopup">Click Here to Open Popup</label>
+
 <nathanprinsley>
-  <input type="checkbox" id="petaNathanPrinsley" hidden=""/>
-  <label for="petaNathanPrinsley">Click Here to Open Popup</label>
   <div nathan="overlay">
-    <label for="petaNathanPrinsley" nathan="backdrop"></label>
-    <label nathan="close" for="petaNathanPrinsley"><xicon/></label>
+    <label for="npPopup" nathan="backdrop"></label>
+    <label nathan="close" for="npPopup"><xicon/></label>
     <div nathan="popup">
       <div nathan="content">
         <h1>Hello World</h1>
