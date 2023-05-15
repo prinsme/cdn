@@ -292,6 +292,10 @@ input[nathanPopup="true"]:checked ~ [nathan="overlay"] label[nathan="close"] {
     opacity:1;
     max-height:40px;
   }
+  .nathanPrinsley-navbar{
+    opacity:1;
+    visibility:visible;
+  }
 }
 
 .bg-nathan{
