@@ -187,11 +187,13 @@ animation-iteration-count: infinite;
     left: 0;
     right: 0;
     bottom: 0;
+    opacity: 0;
+    visibility:hidden;
     margin: auto;
     padding: 4px;
     background: var(--np-bgpopup);
     border-radius: 5px;
-    transition: all .1s ease-in-out;
+    transition: all .2s ease-in-out;
     box-shadow:0px 0px 19px 2px rgb(0 0 0 / 50%);
     overflow-y:auto;
 }
@@ -240,6 +242,10 @@ input[nathanPopup="true"]:checked ~ [nathan="overlay"] {
 }
 input[nathanPopup="true"]:checked ~ [nathan="overlay"] label[nathan="close"] {
     display:block;
+}
+input[nathanPopup="true"]:checked ~ [nathan="overlay"] [nathan="popup"] {
+    opacity:1;
+    visibility:visible;
 }
 [nathan="iframe"]{
     width:100%;
