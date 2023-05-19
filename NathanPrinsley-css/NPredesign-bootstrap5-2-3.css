@@ -164,7 +164,7 @@ animation-iteration-count: infinite;
     left: 0;
     right: 0;
     background: rgba(0,0,0,0.6);
-    transition: opacity 300ms;
+    transition: all .3s ease;
     visibility: hidden;
     opacity: 0;
 }
@@ -191,7 +191,7 @@ animation-iteration-count: infinite;
     padding: 4px;
     background: var(--np-bgpopup);
     border-radius: 5px;
-    transition: all 0s ease-in-out;
+    transition: all .1s ease-in-out;
     box-shadow:0px 0px 19px 2px rgb(0 0 0 / 50%);
     overflow-y:auto;
 }
